@@ -1,4 +1,16 @@
 {
   "name": "travian-browser-extension",
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "dev": ""
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
 }
