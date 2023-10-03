@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/chrome", "npm:0.0.225"],\
             ["@types/node", "npm:20.8.2"],\
             ["@types/react", "npm:18.2.24"],\
             ["@types/react-dom", "npm:18.2.8"],\
@@ -445,6 +446,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/chrome", [\
+        ["npm:0.0.225", {\
+          "packageLocation": "./.yarn/cache/@types-chrome-npm-0.0.225-3d430039e7-e507ab091b.zip/node_modules/@types/chrome/",\
+          "packageDependencies": [\
+            ["@types/chrome", "npm:0.0.225"],\
+            ["@types/filesystem", "npm:0.0.33"],\
+            ["@types/har-format", "npm:1.2.13"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/connect", [\
         ["npm:3.4.36", {\
           "packageLocation": "./.yarn/cache/@types-connect-npm-3.4.36-0d8f297d57-4dee3d966f.zip/node_modules/@types/connect/",\
@@ -519,6 +531,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/qs", "npm:6.9.8"],\
             ["@types/range-parser", "npm:1.2.5"],\
             ["@types/send", "npm:0.17.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/filesystem", [\
+        ["npm:0.0.33", {\
+          "packageLocation": "./.yarn/cache/@types-filesystem-npm-0.0.33-dd10a8867c-49fc883317.zip/node_modules/@types/filesystem/",\
+          "packageDependencies": [\
+            ["@types/filesystem", "npm:0.0.33"],\
+            ["@types/filewriter", "npm:0.0.30"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/filewriter", [\
+        ["npm:0.0.30", {\
+          "packageLocation": "./.yarn/cache/@types-filewriter-npm-0.0.30-83cbbad038-95d9484e1b.zip/node_modules/@types/filewriter/",\
+          "packageDependencies": [\
+            ["@types/filewriter", "npm:0.0.30"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/har-format", [\
+        ["npm:1.2.13", {\
+          "packageLocation": "./.yarn/cache/@types-har-format-npm-1.2.13-b927070fd0-d322ee0282.zip/node_modules/@types/har-format/",\
+          "packageDependencies": [\
+            ["@types/har-format", "npm:1.2.13"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6998,6 +7038,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["travian-browser-extension", "workspace:."],\
+            ["@types/chrome", "npm:0.0.225"],\
             ["@types/node", "npm:20.8.2"],\
             ["@types/react", "npm:18.2.24"],\
             ["@types/react-dom", "npm:18.2.8"],\

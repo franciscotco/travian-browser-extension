@@ -20,7 +20,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "@app/*": ["src/*"]
+      "@src/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "rootDir": ".",

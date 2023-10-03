@@ -10,6 +10,7 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/chrome": "0.0.225",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",

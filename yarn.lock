@@ -319,6 +319,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/chrome@npm:0.0.225":
+  version: 0.0.225
+  resolution: "@types/chrome@npm:0.0.225"
+  dependencies:
+    "@types/filesystem": "*"
+    "@types/har-format": "*"
+  checksum: e507ab091b52b27cf49fbb33d5bb5730325928bcebab39f8ac888599ccef4c66115a7280f56a9e00eb48718cf95a2564159c7303f814041e2b62fe33c6c7bc99
+  languageName: node
+  linkType: hard
+
 "@types/connect-history-api-fallback@npm:^1.3.5":
   version: 1.5.1
   resolution: "@types/connect-history-api-fallback@npm:1.5.1"
@@ -386,6 +396,29 @@ __metadata:
     "@types/qs": "*"
     "@types/serve-static": "*"
   checksum: 8c178da4f0edff1f006d871fbdc3f849620986ff10bad252f3dfd45b57554e26aaa28c602285df028930d5216e257a06fbaf795070f8bb42f7d87e3b689cba50
+  languageName: node
+  linkType: hard
+
+"@types/filesystem@npm:*":
+  version: 0.0.33
+  resolution: "@types/filesystem@npm:0.0.33"
+  dependencies:
+    "@types/filewriter": "*"
+  checksum: 49fc883317beef658d463994117676c0f494743c17d9d191e4c7c9764000490f7c657218b4a5427a076e399086cf6e2aa30e70fc6787a29646339813eb921a43
+  languageName: node
+  linkType: hard
+
+"@types/filewriter@npm:*":
+  version: 0.0.30
+  resolution: "@types/filewriter@npm:0.0.30"
+  checksum: 95d9484e1ba9ed8e2c670042ac49ddeab4c6f365e4297befdd9a3eee9596fd65808f064dd79e2a2ed2cecde46055c73736618d28e22d90dbdfd2f8be67d65ebe
+  languageName: node
+  linkType: hard
+
+"@types/har-format@npm:*":
+  version: 1.2.13
+  resolution: "@types/har-format@npm:1.2.13"
+  checksum: d322ee0282bc9206c697ec04c0a19abe8df581e2fe0f04114fd51d28fa854092ebdfbfcff66f9f2d661c93274230c4545a42df352d42cd01874517a77f2764bc
   languageName: node
   linkType: hard
 
@@ -5826,6 +5859,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "travian-browser-extension@workspace:."
   dependencies:
+    "@types/chrome": 0.0.225
     "@types/node": latest
     "@types/react": latest
     "@types/react-dom": latest

@@ -9,14 +9,6 @@ const config: Configuration = {
     content: [resolve(__dirname, "src", "entries", "content")],
     background: [resolve(__dirname, "src", "entries", "background")]
   },
-  optimization: {
-    moduleIds: "named",
-    splitChunks: {
-      chunks: "all",
-      name: false
-    },
-    usedExports: true
-  },
   output: {
     clean: true,
     environment: {
@@ -26,7 +18,7 @@ const config: Configuration = {
   },
   resolve: {
     alias: {
-      "@src": resolve(__dirname, "src")
+      "@src": resolve(__dirname, "src/")
     },
     extensions: [".js", ".jsx", ".tsx", ".ts", ".json"]
   },
